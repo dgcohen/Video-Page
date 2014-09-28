@@ -8,15 +8,30 @@ form, label {
   vertical-align: baseline;
 }
 
+ul {
+  list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
 body {
 	font-family: sans-serif;
 }
 
-.logo {
+.group:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.logo > img {
 	display: block;
 	margin: auto;
-	max-width: 50%;
-	margin-top: 50px;
+	max-width: 45%;
+	min-width: 500px;
+	margin-top: 55px;
 }
 
 
@@ -24,6 +39,26 @@ body {
 	width: 100%;
 	overflow: hidden;
 	position: relative;
+}
+
+.navbar {
+	width: 469px;
+	margin: auto;
+	margin-top: 30px;
+}
+
+.navbar > ul > li {
+	float: left;
+}
+
+.navbar > ul > li > a {
+	font-family: monospace;
+	color: white;
+	padding: 30px 35px;
+}
+
+.navbar > ul > li > a:hover {
+	color: #777;
 }
 
 .image1 {
