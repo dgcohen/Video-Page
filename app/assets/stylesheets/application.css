@@ -18,6 +18,7 @@ a {
 
 body {
 	font-family: sans-serif;
+	background: black;
 }
 
 .group:after {
@@ -44,7 +45,7 @@ body {
 .navbar {
 	width: 469px;
 	margin: auto;
-	margin-top: 30px;
+	margin-top: 20px;
 }
 
 .navbar > ul > li {
@@ -54,7 +55,7 @@ body {
 .navbar > ul > li > a {
 	font-family: monospace;
 	color: white;
-	padding: 30px 35px;
+	padding: 20px 35px;
 }
 
 .navbar > ul > li > a:hover {
@@ -68,7 +69,7 @@ body {
   -webkit-transform: rotate(80deg);
   transform: rotate(80deg);
 	opacity: .5;
-	width: 300%;
+	min-width: 300%;
 	margin-left: -2500px;
 	margin-top: -1050px;
 }
@@ -80,13 +81,13 @@ body {
   -webkit-transform: rotate(20deg);
   transform: rotate(20deg);
 	opacity: 1;
-	width: 400%;
+	min-width: 300%;
 	margin-left: -1200px;
 	margin-top: -1650px;
 }
 
 .videos {
-	margin-top: 70px;
+	margin-top: 80px;
 }
 
 .videos > li > iframe{
