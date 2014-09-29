@@ -80,7 +80,7 @@ body {
   -ms-transform: rotate(20deg);
   -webkit-transform: rotate(20deg);
   transform: rotate(20deg);
-	opacity: 1;
+	opacity: .5;
 	min-width: 300%;
 	margin-left: -1200px;
 	margin-top: -1650px;
