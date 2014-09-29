@@ -70,7 +70,7 @@ body {
 	opacity: .5;
 	width: 300%;
 	margin-left: -2500px;
-	margin-top: -1550px;
+	margin-top: -1050px;
 }
 
 .image2 {
@@ -82,11 +82,11 @@ body {
 	opacity: 1;
 	width: 400%;
 	margin-left: -1200px;
-	margin-top: -1050px;
+	margin-top: -1650px;
 }
 
 .videos {
-	margin-top: 100px;
+	margin-top: 70px;
 }
 
 .videos > li > iframe{

@@ -10,9 +10,8 @@ $(document).ready(function(){
 		var rotateAmount2 = "rotate(" + x2 + "deg)";
 		var scrollAmount1 = ((scrollPos * .2) - 1650) + "px";
 		
-		
 		$image1.css("transform", rotateAmount1);
-		$image1.css("transform", rotateAmount1);
+		$image2.css("transform", rotateAmount2);
 		$image2.css("margin-top", scrollAmount1);
 		
 	});
