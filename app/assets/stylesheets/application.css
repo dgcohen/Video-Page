@@ -85,9 +85,17 @@ body {
 	margin-top: -1050px;
 }
 
+.videos {
+	margin-top: 100px;
+}
+
+.videos > li > iframe{
+	margin: auto;
+	margin-bottom: 280px;
+}
+
 iframe {
 	display: block;
 	width: 800px;
 	height: 450px;
-	margin: 80px auto;
 }
