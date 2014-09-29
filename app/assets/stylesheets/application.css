@@ -30,8 +30,8 @@ body {
 .logo > img {
 	display: block;
 	margin: auto;
-	max-width: 45%;
-	min-width: 500px;
+	max-width: 50%;
+	min-width: 400px;
 	margin-top: 55px;
 }
 
@@ -43,9 +43,9 @@ body {
 }
 
 .navbar {
-	width: 469px;
+	width: 490px;
 	margin: auto;
-	margin-top: 20px;
+	margin-top: 25px;
 }
 
 .navbar > ul > li {
@@ -54,6 +54,7 @@ body {
 
 .navbar > ul > li > a {
 	font-family: monospace;
+	font-size: 14px;
 	color: white;
 	padding: 20px 35px;
 }
