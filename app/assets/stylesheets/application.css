@@ -13,6 +13,7 @@ ul {
 }
 
 a {
+	color: #eee;
 	text-decoration: none;
 }
 
@@ -20,6 +21,7 @@ body {
 	font-family: sans-serif;
 	background: black;
 }
+
 
 .group:after {
   content: "";
@@ -31,10 +33,9 @@ h1 {
 	font-family: serif;
 	display: block;
 	text-align: center;
-	color: #eee;
 	font-style: italic;
 	font-size: 80px;
-	margin-top: 45px;
+	margin-top: 40px;
 	font-weight: 100;
 }
 
@@ -66,7 +67,6 @@ h1 {
 .navbar > ul > li > a {
 	font-family: monospace;
 	font-size: 14px;
-	color: #eee;
 	padding: 20px 40px;
 }
 
