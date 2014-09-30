@@ -28,12 +28,13 @@ body {
 }
 
 h1 {
+	font-family: serif;
 	display: block;
 	text-align: center;
 	color: #fff;
 	font-style: italic;
 	font-weight: 400;
-	font-size: 75px;
+	font-size: 70px;
 	margin-top: 45px;
 }
 
@@ -55,7 +56,7 @@ h1 {
 .navbar {
 	width: 490px;
 	margin: auto;
-	margin-top: 30px;
+	margin-top: 20px;
 }
 
 .navbar > ul > li {
@@ -98,7 +99,7 @@ h1 {
 }
 
 .videos {
-	margin-top: 80px;
+	margin-top: 100px;
 }
 
 .videos > li > iframe{
