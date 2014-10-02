@@ -58,7 +58,7 @@ h1 {
 .navbar {
 	width: 523px;
 	margin: auto;
-	margin-top: 15px;
+	margin-top: 20px;
 }
 
 .navbar > ul > li {
@@ -103,7 +103,7 @@ h1 {
 	margin-top: 120px;
 }
 
-.videos > li > iframe{
+iframe{
 	display: block;
 	width: 800px;
 	height: 450px;
@@ -112,7 +112,7 @@ h1 {
 
 .videos > li > p {
 	display: block;
-	margin-bottom: 280px;
+	margin-bottom: 250px;
 }
 
 .videos > li > p > a {
