@@ -45,7 +45,7 @@ h1 {
 	margin: auto;
 	max-width: 40%;
 	min-width: 500px;
-	margin-top: 55px;
+	margin-top: 60px;
 }
 
 
@@ -100,16 +100,35 @@ h1 {
 }
 
 .videos {
-	margin-top: 100px;
+	margin-top: 120px;
 }
 
 .videos > li > iframe{
-	margin: auto;
-	margin-bottom: 280px;
-}
-
-iframe {
 	display: block;
 	width: 800px;
 	height: 450px;
+	margin: auto;
+}
+
+.videos > li > p {
+	display: block;
+	margin-bottom: 280px;
+}
+
+.videos > li > p > a {
+	display: block;
+	text-align: center;
+	width: 700px;
+	margin: auto;
+	font-family: serif;
+	font-style: italic;
+	font-weight: 100;
+	font-size: 18px;
+	letter-spacing: 2px;
+	padding: 30px 0;
+	color: #ddd;
+}
+
+.videos > li > p > a:hover {
+	color: #777;
 }
