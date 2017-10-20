@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+ruby "2.2.4"
 
 group :production do
   gem 'pg'
@@ -8,8 +9,6 @@ group :development, :test do
   gem 'pg'
 end
 gem "rails_12factor"
-
-gem 'ruby', '2.2.4'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.8'
